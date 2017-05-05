@@ -148,7 +148,7 @@ cupsdAddJob(int        priority,	/* I - Job priority */
             const char *dest)		/* I - Job destination */
 {
   cupsd_job_t	*job;			/* New job record */
-
+  cupsdLogMessage(CUPSD_LOG_DEBUG, "Hello world!! :)");
 
   if ((job = calloc(sizeof(cupsd_job_t), 1)) == NULL)
     return (NULL);

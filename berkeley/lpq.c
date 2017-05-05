@@ -37,6 +37,7 @@ int
 main(int  argc,				/* I - Number of command-line arguments */
      char *argv[])			/* I - Command-line arguments */
 {
+  _cupsLangPrintf(stdout, "Hello world! May 5,2017\n");
   int		i;			/* Looping var */
   http_t	*http;			/* Connection to server */
   const char	*opt,			/* Option pointer */
